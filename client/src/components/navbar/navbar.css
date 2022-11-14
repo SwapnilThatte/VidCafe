@@ -1,0 +1,26 @@
+.search-icon {
+    color : rgba(245, 245, 245, 0.58) ;
+    cursor: pointer;
+}
+
+.search-icon:hover {
+    color: white;
+}
+
+.input {
+    padding : 0 !important;
+}
+
+.search {
+    transition: 0s !important;
+}
+
+.search:focus-within {
+
+border-bottom: 2px solid transparent;
+    /* border-image: linear-gradient(to right, #ff36de 0%, #a736de 100%); */
+    border-image: linear-gradient(to right, #0c76da 0%, #0754b9d7 100%);
+    border-image-slice: 1;
+    /* background-color: #a736de; */
+    
+}
